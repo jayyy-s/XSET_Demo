@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".about.CommunityFragment">
+
+    <ImageButton
+        android:id="@+id/joinDiscordButton"
+        android:layout_width="260dp"
+        android:layout_height="67dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/button_to_join_discord"
+        android:minHeight="48dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/discord_join_button"
+        app:layout_constraintBottom_toTopOf="@+id/teamsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/teamsButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/xset_red"
+        android:fontFamily="@font/asterone"
+        android:text="@string/teams"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/watchOnTwitchButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/watchOnTwitchButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/xset_red"
+        android:fontFamily="@font/asterone"
+        android:text="@string/watch_on_twitch"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/repProgramButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamsButton" />
+
+    <Button
+        android:id="@+id/repProgramButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/xset_red"
+        android:fontFamily="@font/asterone"
+        android:text="@string/rep_program"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/watchOnTwitchButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

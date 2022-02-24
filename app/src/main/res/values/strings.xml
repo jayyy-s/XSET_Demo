@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">XSET_Demo</string>
+    <string name="xset_splash">XSET Splash</string>
+    <string name="title_activity_tabbed_menu">TabbedMenuActivity</string>
+    <string name="shop">SHOP</string>
+    <string name="watch">WATCH</string>
+    <string name="teams">TEAMS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_of_store_item">Image of store item</string>
+    <string name="this_is_some_temp_text">temp text</string>
+    <string name="title_activity_test_tab">TestTabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="featured">Featured</string>
+    <string name="bag_icon">Bag Icon</string>
+    <string name="upcoming_matches">Upcoming Matches</string>
+    <string name="image_of_game_played">Image of game played</string>
+    <string name="time">TIME</string>
+    <string name="date">DATE</string>
+    <string name="twitch_icon">Twitch icon</string>
+    <string name="about">ABOUT</string>
+    <string name="button_to_join_discord">Join Discord</string>
+    <string name="list_of_game_titles">List of game titles</string>
+    <string name="community">COMMUNITY</string>
+    <string name="rep_program">Rep Program</string>
+    <string name="watch_on_twitch">Live on Twitch</string>
+    <string-array name="game_titles_array">
+        <item>All</item>
+        <item>Valorant</item>
+        <item>PUBG Mobile</item>
+        <item>Halo</item>
+        <item>Apex Legends</item>
+        <item>Rocket League</item>
+        <item>Fortnite</item>
+        <item>iRacing</item>
+    </string-array>
+
+</resources>
