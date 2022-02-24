@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_xset"
-        android:label="@string/app_name"
+        android:label="XSET"
         android:roundIcon="@mipmap/ic_launcher_xset_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.XSET_Demo">
